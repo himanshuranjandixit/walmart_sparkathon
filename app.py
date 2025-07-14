@@ -5,8 +5,7 @@ from ultralytics import YOLO
 import tempfile
 import os
 
-# Load YOLOv8 model (replace with your .pt path if needed)
-model = YOLO("Walmart_version1.pt")  # e.g., 'last.pt' or 'Walmart_version1.pt'
+model = YOLO("Walmart_version1.pt")  
 
 st.title("🛒 Vegetable Detection App")
 st.markdown("Upload an image and click **'Run Detection'** to identify vegetables using YOLOv8.")
